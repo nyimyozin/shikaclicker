@@ -3,7 +3,7 @@ body,html {
 }
 
 .shika-bg {
-    background-image:url("/images/shika-bg.png");
+    background-image:url("../images/shika-bg.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

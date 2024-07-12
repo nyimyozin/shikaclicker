@@ -1,17 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     const images = [
-        '/images/shikanoko.png',
-        '/images/koshi.png',
-        '/images/deer.png',
+        '../images/shikanoko.png',
+        '../images/koshi.png',
+        '../images/deer.png',
     ];
 
     const sounds = [
-        '/sounds/shika-1.mp3',
-        '/sounds/shika-2.mp3',
-        '/sounds/shika-3.mp3'
+        '../sounds/shika-1.mp3',
+        '../sounds/shika-2.mp3',
+        '../sounds/shika-3.mp3'
     ];
 
-    const easterEggSound = '/sounds/shika-full.mp3';
+    const easterEggSound = '../sounds/shika-full.mp3';
     let soundSequence = [];
 
     document.addEventListener('click', function (event) {
