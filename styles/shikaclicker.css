@@ -1,13 +1,19 @@
-body,html {
+body, html {
     height: 100%;
 }
 
 .shika-bg {
-    background-image:url("../images/shika-bg.png");
+    background-image: url("../images/shika-bg.png");
     height: 100%;
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .shika-bg {
+        background-image: url("../images/shika-bg-mb.png");
+    }
 }
 
 .hidden {
